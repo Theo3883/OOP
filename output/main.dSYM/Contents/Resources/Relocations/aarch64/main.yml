@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/theo8338/Documents/lucrari/OOP 2/output/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __ZN10NumberList4InitEv, symObjAddr: 0x0, symBinAddr: 0x100003BC8, symSize: 0x18 }
+  - { offsetInCU: 0x2CF2, offset: 0x2CF2, size: 0x8, addend: 0x0, symName: __ZN10NumberList4InitEv, symObjAddr: 0x0, symBinAddr: 0x100003BC8, symSize: 0x18 }
+  - { offsetInCU: 0x2D18, offset: 0x2D18, size: 0x8, addend: 0x0, symName: __ZN10NumberList3AddEi, symObjAddr: 0x18, symBinAddr: 0x100003BE0, symSize: 0xE8 }
+  - { offsetInCU: 0x2D67, offset: 0x2D67, size: 0x8, addend: 0x0, symName: __ZN10NumberList4SortEv, symObjAddr: 0x100, symBinAddr: 0x100003CC8, symSize: 0xFC }
+  - { offsetInCU: 0x2DE1, offset: 0x2DE1, size: 0x8, addend: 0x0, symName: __ZN10NumberList5PrintEv, symObjAddr: 0x1FC, symBinAddr: 0x100003DC4, symSize: 0xA0 }
+  - { offsetInCU: 0x2E23, offset: 0x2E23, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x29C, symBinAddr: 0x100003E64, symSize: 0x8C }
+  - { offsetInCU: 0x2E75, offset: 0x2E75, size: 0x8, addend: 0x0, symName: __ZN10NumberListC1Ev, symObjAddr: 0x328, symBinAddr: 0x100003EF0, symSize: 0x2C }
+  - { offsetInCU: 0x2E9F, offset: 0x2E9F, size: 0x8, addend: 0x0, symName: __ZN10NumberListC2Ev, symObjAddr: 0x354, symBinAddr: 0x100003F1C, symSize: 0x44 }
+...
