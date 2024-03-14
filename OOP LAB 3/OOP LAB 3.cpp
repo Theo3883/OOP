@@ -4,10 +4,13 @@
 #include <iostream>
 #include <stdarg.h>
 #include "Math.h";
+#include "Canvas.h";
 #include <cstring>
 using namespace std;
 int main()
 {
-    cout << Math::Add("merge", "merge");
+	Canvas a(20, 20);
+	a.DrawRect(5, 5, 10, 10, 'a');
+	a.Print();
 }
 
