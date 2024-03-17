@@ -1,2 +1,5 @@
-﻿  OOP LAB 4.cpp
+﻿  Sort.cpp
+C:\Users\teosa\Desktop\OOP\OOP LAB 4\Sort.cpp(8,39): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\teosa\Desktop\OOP\OOP LAB 4\Sort.cpp(33,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\teosa\Desktop\OOP\OOP LAB 4\Sort.cpp(47,21): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   OOP LAB 4.vcxproj -> C:\Users\teosa\Desktop\OOP\OOP LAB 4\x64\Debug\OOP LAB 4.exe
