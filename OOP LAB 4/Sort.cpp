@@ -88,7 +88,7 @@ void Sort::BubbleSort(bool ascendent)
 	{
 		sortat = true;
 		for (int i = 0; i < size - 1; i++)
-			if (array[i] > array[i + 1])
+			if ((array[i] > array[i + 1])==ascendent)
 			{
 				std::swap(array[i], array[i + 1]);
 				sortat = false;
