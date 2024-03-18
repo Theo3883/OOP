@@ -20,7 +20,7 @@ int main()
     s.push_back('7');
     s.push_back('0');
     Sort a(s);
-    a.BubbleSort(true);
+    a.BubbleSort(false);
     a.Print();
     int v[] = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     Sort b(v, 9);
