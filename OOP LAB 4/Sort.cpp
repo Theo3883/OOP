@@ -3,13 +3,14 @@ Sort::Sort(int minim, int maxim, int elemcount) : size(elemcount)
 {
 	array = new int[size];
 	for (int i = 0; i < size; i++)
-		array[i] = rand() % (maxim - minim + 1);
+		array[i] = rand() % (maxim - minim + 1)+minim;
 }
-Sort::Sort(std::vector <int> v) : size(v.size())
+Sort::Sort(std::initializer_list <int> v) : size(v.size())
 {
 	array = new int[v.size() + 1];
-	for (int i = 0; i < size; i++)
-		array[i] = v[i];
+	int j = 0;
+	for (auto i =v.begin() ; i < v.end(); i++)
+		array[j++] = *i;
 }
 Sort::Sort(int v[], int elemcount) : size(elemcount)
 {
@@ -17,7 +18,7 @@ Sort::Sort(int v[], int elemcount) : size(elemcount)
 	for (int i = 0; i < size; i++)
 		array[i] = v[i];
 }
-/*Sort::Sort(int elemcount, ...) : size(elemcount)
+Sort::Sort(int elemcount, ...) : size(elemcount)
 {
 	array = new int[size];
 	va_list args;
@@ -25,7 +26,7 @@ Sort::Sort(int v[], int elemcount) : size(elemcount)
 	for (int i = 0; i < size; i++)
 		array[i] = va_arg(args, int);
 	va_end(args);
-}*/
+}
 Sort::Sort(std::string s)
 {
 	std::vector <int> numbers;
@@ -60,7 +61,7 @@ int  Sort::GetElementsCount()
 }
 int  Sort::GetElementFromIndex(int index)
 {
-	if (index >= size)
+	if (index >= size || index <0)
 	{
 		std::cout << "Invalid index";
 		return -1;

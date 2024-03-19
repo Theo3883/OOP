@@ -3,6 +3,7 @@
 #include <stdarg.h>
 #include <iostream>
 #include <string>
+#include <initializer_list>
 class Sort
 {
 private:
@@ -12,7 +13,7 @@ private:
 public:
     // add constuctors
     Sort(int minim, int maxim, int elemcount);
-    Sort(std::vector <int> v);
+    Sort(std::initializer_list <int> v);
     Sort(int v[], int elemcount);
     Sort(int elemcount, ...);
     Sort(std::string s);

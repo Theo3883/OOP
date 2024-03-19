@@ -2,6 +2,7 @@
 #include <string>
 #include <vector>
 #include "Sort.h"
+
 int main()
 {
     std::string s;
@@ -26,13 +27,17 @@ int main()
     Sort b(v, 9);
     b.QuickSort(true);
     b.Print();
-    std::vector <int> v1 = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+    /*std::vector <int> v1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     Sort c(v1);
     c.InsertSort(true);
-    c.Print();
+    c.Print();*/
     Sort d(1, 100, 10);
     d.BubbleSort(false);
     d.Print();
+    //int h[30] = { 1,2,3 };
+    Sort c1({1,2,3});
+    c1.Print();
+
     return 0;
 
 }
