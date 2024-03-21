@@ -1,0 +1,8 @@
+﻿  Number.cpp
+C:\Users\teosa\Desktop\OOP\OOP LAB 5\Number.cpp(69,69): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  OOP LAB 5.cpp
+  Generating Code...
+Number.obj : error LNK2019: unresolved external symbol "public: __cdecl Number::~Number(void)" (??1Number@@QEAA@XZ) referenced in function "public: void __cdecl Number::SwitchBase(int)" (?SwitchBase@Number@@QEAAXH@Z)
+OOP LAB 5.obj : error LNK2001: unresolved external symbol "public: __cdecl Number::~Number(void)" (??1Number@@QEAA@XZ)
+Number.obj : error LNK2019: unresolved external symbol "public: class Number & __cdecl Number::operator=(class Number &&)" (??4Number@@QEAAAEAV0@$$QEAV0@@Z) referenced in function "public: void __cdecl Number::SwitchBase(int)" (?SwitchBase@Number@@QEAAXH@Z)
+C:\Users\teosa\Desktop\OOP\OOP LAB 5\x64\Debug\OOP LAB 5.exe : fatal error LNK1120: 2 unresolved externals
