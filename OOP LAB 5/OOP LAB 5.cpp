@@ -4,7 +4,7 @@
 int main()
 {
 	Number n1("10110010"
-		, 2);
+	, 2);
 	Number n2("734"
 		, 8);
 	Number n3("FF"

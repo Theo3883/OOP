@@ -79,6 +79,7 @@ Number::Number(int value)
 Number::~Number()
 {
 		delete[] number;
+		number = nullptr;
 }
 Number::Number(const Number& from_number): base(from_number.base), numbersize(from_number.numbersize)
 {
@@ -102,7 +103,6 @@ Number& Number::operator=(Number&& mv) noexcept
 {
 	if (this != &mv) 
 	{ 
-		//delete[] number; 
 		base = mv.base;
 		numbersize = mv.numbersize;
 		number = mv.number;
