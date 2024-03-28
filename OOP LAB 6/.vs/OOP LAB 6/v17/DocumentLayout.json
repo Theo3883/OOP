@@ -1,34 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\",
+  "WorkspaceRootPath": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\OOP LAB 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:OOP LAB 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Mazda.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Mazda.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mazda.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Mazda.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Ford.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Ford.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Circuit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Circuit.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Toyota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Toyota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Mercedes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mercedes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Mercedes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Dacia.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Toyota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Toyota.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mazda.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Mazda.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Dacia.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Dacia.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\OOP LAB 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:OOP LAB 6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Car.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Ford.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A5C2469D-4B59-4529-8C0C-05BF43899937}|OOP LAB 6.vcxproj|solutionrelative:Ford.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +46,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Car.h",
-              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Car.h",
-              "RelativeDocumentMoniker": "Car.h",
-              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Car.h",
-              "RelativeToolTip": "Car.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T15:32:00.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Mazda.h",
-              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Mazda.h",
-              "RelativeDocumentMoniker": "Mazda.h",
-              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Mazda.h",
-              "RelativeToolTip": "Mazda.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T15:30:45.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Ford.h",
-              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Ford.h",
-              "RelativeDocumentMoniker": "Ford.h",
-              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Ford.h",
-              "RelativeToolTip": "Ford.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T15:30:34.08Z",
-              "EditorCaption": ""
+              "Title": "Mazda.cpp",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mazda.cpp",
+              "RelativeDocumentMoniker": "Mazda.cpp",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mazda.cpp",
+              "RelativeToolTip": "Mazda.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-28T10:17:07.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Toyota.h",
-              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Toyota.h",
-              "RelativeDocumentMoniker": "Toyota.h",
-              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Toyota.h",
-              "RelativeToolTip": "Toyota.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "Mercedes.h",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mercedes.h",
+              "RelativeDocumentMoniker": "Mercedes.h",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mercedes.h",
+              "RelativeToolTip": "Mercedes.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T15:30:21.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T10:13:44.347Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Circuit.cpp",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Circuit.cpp",
+              "RelativeDocumentMoniker": "Circuit.cpp",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Circuit.cpp",
+              "RelativeToolTip": "Circuit.cpp",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-28T10:15:31.539Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Ford.h",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Ford.h",
+              "RelativeDocumentMoniker": "Ford.h",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Ford.h",
+              "RelativeToolTip": "Ford.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-28T10:13:43.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Car.h",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Car.h",
+              "RelativeDocumentMoniker": "Car.h",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Car.h",
+              "RelativeToolTip": "Car.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-28T10:13:58.769Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Mercedes.h",
-              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Mercedes.h",
-              "RelativeDocumentMoniker": "Mercedes.h",
-              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Mercedes.h",
-              "RelativeToolTip": "Mercedes.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "Toyota.h",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Toyota.h",
+              "RelativeDocumentMoniker": "Toyota.h",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Toyota.h",
+              "RelativeToolTip": "Toyota.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T15:29:48.466Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T10:13:44.827Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Dacia.h",
-              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Dacia.h",
-              "RelativeDocumentMoniker": "Dacia.h",
-              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\Dacia.h",
-              "RelativeToolTip": "Dacia.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Title": "Mazda.h",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mazda.h",
+              "RelativeDocumentMoniker": "Mazda.h",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Mazda.h",
+              "RelativeToolTip": "Mazda.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-03-27T15:29:36.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-28T10:13:43.806Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Dacia.h",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Dacia.h",
+              "RelativeDocumentMoniker": "Dacia.h",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\Dacia.h",
+              "RelativeToolTip": "Dacia.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-28T10:13:42.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "OOP LAB 6.cpp",
-              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\OOP LAB 6.cpp",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\OOP LAB 6.cpp",
               "RelativeDocumentMoniker": "OOP LAB 6.cpp",
-              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP LAB 6\\OOP LAB 6.cpp",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 6\\OOP LAB 6.cpp",
               "RelativeToolTip": "OOP LAB 6.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-27T15:20:00.526Z",
+              "WhenOpened": "2024-03-28T10:03:08.955Z",
               "EditorCaption": ""
             }
           ]

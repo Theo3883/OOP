@@ -183,20 +183,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Car.cpp" />
+    <ClCompile Include="Circuit.cpp" />
     <ClCompile Include="Dacia.cpp" />
     <ClCompile Include="Ford.cpp" />
     <ClCompile Include="Mazda.cpp" />
     <ClCompile Include="Mercedes.cpp" />
     <ClCompile Include="OOP LAB 6.cpp" />
     <ClCompile Include="Toyota.cpp" />
+    <ClCompile Include="Weather.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Car.h" />
+    <ClInclude Include="Circuit.h" />
     <ClInclude Include="Dacia.h" />
     <ClInclude Include="Ford.h" />
     <ClInclude Include="Mazda.h" />
     <ClInclude Include="Mercedes.h" />
     <ClInclude Include="Toyota.h" />
+    <ClInclude Include="Weather.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
