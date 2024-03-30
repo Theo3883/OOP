@@ -1,6 +1,6 @@
 #pragma once
 #include "Car.h"
-class Toyota : public Car
+class BMW : public Car
 {
 private:
 	double FuelCons() final override;
@@ -8,7 +8,7 @@ private:
 	int Speed(Weather condition) final override;
 	const char* Name() final override;
 public:
-	Toyota() :Car(70, 6.5) {};
+	BMW() :Car(70, 6.5) {};
 };
 
 

@@ -1,13 +1,13 @@
 #include "Toyota.h"
-int Toyota::FuelCap()
+int BMW::FuelCap()
 {
 	return fuel_capacity;
 }
-double Toyota::FuelCons()
+double BMW::FuelCons()
 {
 	return fuel_cons;
 }
-int Toyota::Speed(Weather weather)
+int BMW::Speed(Weather weather)
 {
 	switch (weather)
 	{
@@ -24,7 +24,7 @@ int Toyota::Speed(Weather weather)
 		break;
 	}
 }
-const char* Toyota::Name()
+const char* BMW::Name()
 {
-	return "Toyota";
+	return "BMW";
 }

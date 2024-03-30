@@ -1,2 +1,17 @@
-﻿  OOP LAB 6.cpp
+﻿  Circuit.cpp
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Circuit.cpp(20,18): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Circuit.cpp(36,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Circuit.cpp(43,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Dacia.cpp
+  Ford.cpp
+  Mazda.cpp
+  Mercedes.cpp
+  OOP LAB 6.cpp
+  Toyota.cpp
+  Generating Code...
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Toyota.cpp(26,1): warning C4715: 'BMW::Speed': not all control paths return a value
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Mercedes.cpp(26,1): warning C4715: 'Seat::Speed': not all control paths return a value
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Mazda.cpp(26,1): warning C4715: 'RangeRover::Speed': not all control paths return a value
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Ford.cpp(26,1): warning C4715: 'Fiat::Speed': not all control paths return a value
+C:\Users\teosa\Desktop\OOP\OOP LAB 6\Dacia.cpp(26,1): warning C4715: 'Volvo::Speed': not all control paths return a value
   OOP LAB 6.vcxproj -> C:\Users\teosa\Desktop\OOP\OOP LAB 6\x64\Debug\OOP LAB 6.exe

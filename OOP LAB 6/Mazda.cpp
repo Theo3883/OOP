@@ -1,13 +1,13 @@
 #include "Mazda.h"
-int Mazda::FuelCap()
+int RangeRover::FuelCap()
 {
 	return fuel_capacity;
 }
-double Mazda::FuelCons()
+double RangeRover::FuelCons()
 {
 	return fuel_cons;
 }
-int Mazda::Speed(Weather weather)
+int RangeRover::Speed(Weather weather)
 {
 	switch (weather)
 	{
@@ -24,7 +24,7 @@ int Mazda::Speed(Weather weather)
 		break;
 	}
 }
-const char* Mazda::Name()
+const char* RangeRover::Name()
 {
-	return "Mazda";
+	return "RangeRover";
 }

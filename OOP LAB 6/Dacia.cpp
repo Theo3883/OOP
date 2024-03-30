@@ -1,13 +1,13 @@
 #include "Dacia.h"
-int Dacia::FuelCap()
+int Volvo::FuelCap()
 {
 	return fuel_capacity;
 }
-double Dacia::FuelCons()
+double Volvo::FuelCons()
 {
 	return fuel_cons;
 }
-int Dacia::Speed(Weather weather)
+int Volvo::Speed(Weather weather)
 {
 	switch (weather)
 	{
@@ -24,7 +24,7 @@ int Dacia::Speed(Weather weather)
 		break;
 	}
 }
-const char* Dacia::Name()
+const char* Volvo::Name()
 {
-	return "Dacia";
+	return "Volvo";
 }

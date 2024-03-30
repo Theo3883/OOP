@@ -1,13 +1,13 @@
 #include "Mercedes.h"
-int Mercedes::FuelCap()
+int Seat::FuelCap()
 {
 	return fuel_capacity;
 }
-double Mercedes::FuelCons()
+double Seat::FuelCons()
 {
 	return fuel_cons;
 }
-int Mercedes::Speed(Weather weather)
+int Seat::Speed(Weather weather)
 {
 	switch (weather)
 	{
@@ -24,7 +24,7 @@ int Mercedes::Speed(Weather weather)
 		break;
 	}
 }
-const char* Mercedes::Name()
+const char* Seat::Name()
 {
-	return "Mercedes";
+	return "Seat";
 }

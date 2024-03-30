@@ -1,13 +1,13 @@
 #include "Ford.h"
-int Ford::FuelCap()
+int Fiat::FuelCap()
 {
 	return fuel_capacity;
 }
-double Ford::FuelCons()
+double Fiat::FuelCons()
 {
 	return fuel_cons;
 }
-int Ford::Speed(Weather weather)
+int Fiat::Speed(Weather weather)
 {
 	switch (weather)
 	{
@@ -24,7 +24,7 @@ int Ford::Speed(Weather weather)
 		break;
 	}
 }
-const char* Ford::Name()
+const char* Fiat::Name()
 {
-	return "Ford";
+	return "Fiat";
 }
