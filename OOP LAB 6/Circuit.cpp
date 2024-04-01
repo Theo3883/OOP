@@ -25,7 +25,7 @@ void Circuit::Race()
 		else
 		{
 			double result = length / cars[i]->Speed(current_weather);
-			finished_cars.push_back({ i, result });
+			finished_cars.push_back({ i, double(length / cars[i]->Speed(current_weather)) });
 		}
 	}
 	sort(finished_cars.begin(), finished_cars.end(), cmp);

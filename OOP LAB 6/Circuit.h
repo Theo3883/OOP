@@ -27,5 +27,6 @@ public:
 	void Race();
 	void ShowFinalRanks();
 	void ShowWhoDidNotFinish();
+	void ceva();
 
 };
