@@ -1,8 +1,15 @@
 {
   "ExpandedNodes": [
     "",
+<<<<<<< Updated upstream
     "\\OOP LAB 6"
   ],
   "SelectedNode": "\\OOP LAB 6\\OOP LAB 6.cpp",
+=======
+    "\\OOP LAB 5",
+    "\\OOP LAB 6"
+  ],
+  "SelectedNode": "\\OOP LAB 6\\Car.h",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
