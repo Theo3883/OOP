@@ -1,0 +1,4 @@
+﻿  OOP LAB 7.cpp
+C:\Users\salut\OneDrive\Desktop\OOP LAB 7\OOP LAB 7.cpp(4,34): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+C:\Users\salut\OneDrive\Desktop\OOP LAB 7\OOP LAB 7.cpp(8,41): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  OOP LAB 7.vcxproj -> C:\Users\salut\OneDrive\Desktop\OOP LAB 7\ARM64\Debug\OOP LAB 7.exe
