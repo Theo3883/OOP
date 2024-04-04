@@ -1,5 +1,5 @@
 #include <iostream>
-float operator"" _Kelvin(unsigned long long Cels)
+/*float operator"" _Kelvin(unsigned long long Cels)
 {
 	return static_cast<float>(Cels) + 273.15;
 }
@@ -12,6 +12,17 @@ int main() {
 	float b = 120_Fahrenheit;
 	std::cout << a << " " << b;
 	return 0;
+}*/
+#include "Vector.h"
+int main()
+{
+	Vec<float> number;
+	number.push(5);
+	number.push(2.57);
+	number.push(.3);
+	number.sortt();
+	//number.set(, 2);
+	std::cout << number.pop();
 }
 
 
