@@ -1,17 +1,4 @@
 ﻿  OOP LAB 7.cpp
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(20,14): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(20,14): warning C4305:         with
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(20,14): warning C4305:         [
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(20,14): warning C4305:             T=float
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(20,14): warning C4305:         ]
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(21,14): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(21,14): warning C4305:         with
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(21,14): warning C4305:         [
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(21,14): warning C4305:             T=float
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(21,14): warning C4305:         ]
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(22,14): warning C4305: 'argument': truncation from 'double' to 'T'
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(22,14): warning C4305:         with
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(22,14): warning C4305:         [
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(22,14): warning C4305:             T=float
-C:\Users\teosa\Desktop\OOP\OOP LAB 7\OOP LAB 7.cpp(22,14): warning C4305:         ]
+  Vector.cpp
+  Generating Code...
   OOP LAB 7.vcxproj -> C:\Users\teosa\Desktop\OOP\OOP LAB 7\x64\Debug\OOP LAB 7.exe

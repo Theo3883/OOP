@@ -16,13 +16,13 @@ int main() {
 #include "Vector.h"
 int main()
 {
-	Vec<float> number;
-	number.push(5);
-	number.push(2.57);
-	number.push(.3);
-	number.sortt();
-	//number.set(, 2);
-	std::cout << number.pop();
+
+	Tree<char> tree;
+	tree.add_node(0, 'a');
+	tree.add_node(0, 'b');
+	tree.add_node(1, 'c');
+	tree.add_node(1, 'd');
+	std::cout<<tree.get_node(1);
 }
 
 

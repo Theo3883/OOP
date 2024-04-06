@@ -18,21 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Vector.h",
-              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
-              "RelativeDocumentMoniker": "Vector.h",
-              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
-              "RelativeToolTip": "Vector.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-04T05:36:28.254Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,9 +28,22 @@
               "RelativeDocumentMoniker": "OOP LAB 7.cpp",
               "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\OOP LAB 7.cpp",
               "RelativeToolTip": "OOP LAB 7.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-03T08:14:09.44Z",
+              "WhenOpened": "2024-04-06T13:56:27.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vector.h",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
+              "RelativeDocumentMoniker": "Vector.h",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
+              "RelativeToolTip": "Vector.h",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAHgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-06T16:01:04.459Z",
               "EditorCaption": ""
             }
           ]
