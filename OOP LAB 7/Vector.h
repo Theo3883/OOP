@@ -60,7 +60,7 @@ private:
 
 public:
 	
-	Tree() : root(nullptr), nodesCount(0) {};
+	Tree(): root(nullptr), nodesCount(0) {};
 
 	//metode
 	void add_node(int parent, T value)
@@ -79,12 +79,16 @@ public:
 			nodes[nodesCount++] = newNode;
 		}
 	}
-	T get_node(int parent)
+	T get_node(int parent,int index)
 	{
-		if (parent == 0)
+		if (parent == 0 && index==-1)
 			return root->value;
-		if (parent >= 0 && parent < nodesCount)
+		if (parent >= 0 && parent < nodesCount && index==-1)
 			return nodes[parent]->value;
+		if (parent >= 0 && parent < nodesCount && index <= nodes[parent]->childrenCount)
+		{
+				return nodes[parent]->children[index]->value;
+		}
 		return T();
 	}
 	void delete_node(int parent)
@@ -95,6 +99,16 @@ public:
 	T find(T value)
 	{
 		return find_recursiv(root, value);
+	}
+	void insert(int parent, int index, T value)
+	{
+		Node* parentNode = nodes[parent];
+		Node* newNode = new Node(parent, value);
+		parentNode->childrenCount++;
+		for (int i = parentNode->childrenCount0 - 1; i > index; i--)
+			parentNode->children[i] = parentNode->children[i - 1];
+		parentNode->children[index] = newNode;
+		nodes[nodesCount++] = newNode;
 	}
 	void sort(int parent)
 	{

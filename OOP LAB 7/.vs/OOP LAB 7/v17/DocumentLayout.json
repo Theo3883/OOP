@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\",
+  "WorkspaceRootPath": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|solutionrelative:Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|solutionrelative:Tree.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\OOP LAB 7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\OOP LAB 7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|solutionrelative:OOP LAB 7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{028F5CFF-80B7-4F83-95C0-7C81154BD794}|OOP LAB 7.vcxproj|solutionrelative:Vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tree.h",
+              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\Tree.h",
+              "RelativeDocumentMoniker": "Tree.h",
+              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\Tree.h",
+              "RelativeToolTip": "Tree.h",
+              "ViewState": "AQIAAAkAAAAAZmZmZuYcwBoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-08T15:39:43.63Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "OOP LAB 7.cpp",
-              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\OOP LAB 7.cpp",
+              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\OOP LAB 7.cpp",
               "RelativeDocumentMoniker": "OOP LAB 7.cpp",
-              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\OOP LAB 7.cpp",
+              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\OOP LAB 7.cpp",
               "RelativeToolTip": "OOP LAB 7.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABgAAAAaAAAA",
+              "ViewState": "AQIAAAgAAAAAAQAAAAAAwBEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-06T13:56:27.781Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Vector.h",
-              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
+              "DocumentMoniker": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
               "RelativeDocumentMoniker": "Vector.h",
-              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
+              "ToolTip": "C:\\Users\\salut\\OneDrive\\Desktop\\OOP\\OOP LAB 7\\Vector.h",
               "RelativeToolTip": "Vector.h",
-              "ViewState": "AQIAAG8AAAAAAAAAAAAAAHgAAAACAAAA",
+              "ViewState": "AQIAAHMAAAAAAAAAAAAAwIgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-06T16:01:04.459Z",
               "EditorCaption": ""

@@ -22,7 +22,7 @@ int main()
 	tree.add_node(0, 'b');
 	tree.add_node(1, 'c');
 	tree.add_node(1, 'd');
-	std::cout<<tree.get_node(1);
+	std::cout<<tree.get_node(0,0);
 }
 
 
