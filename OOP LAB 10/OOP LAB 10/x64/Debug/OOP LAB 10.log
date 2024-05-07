@@ -1,2 +1,5 @@
-﻿  OOP LAB 10.cpp
+﻿  Array.cpp
+  OOP LAB 10.cpp
+  Generating Code...
+C:\Users\teosa\Desktop\OOP\OOP LAB 10\Array.h(60,1): warning C4717: 'ArrayIterator<int>::operator!=': recursive on all control paths, function will cause runtime stack overflow
   OOP LAB 10.vcxproj -> C:\Users\teosa\Desktop\OOP\OOP LAB 10\x64\Debug\OOP LAB 10.exe

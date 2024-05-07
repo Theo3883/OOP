@@ -1,6 +1,7 @@
 #include <iostream>
 #include <exception>
 #include <algorithm>
+#include <vector>
 class exceptie1 : public std::exception
 {
 public:
@@ -14,26 +15,66 @@ class Compare
 public:
 	virtual int CompareElements(void* e1, void* e2) = 0;
 };
+template <class T>
+class compareelements : public Compare
+{
+public:
+	int CompareElements(void* e1, void* e2) override
+	{
+		if (*(T*)e1 < *(T*)e2)
+			return -1;
+		if (*(T*)e1 > *(T*)e2)
+			return 1;
+		return 0;
+	}
+};
 template<class T>
 class ArrayIterator
 {
 private:
-	int Current; // mai adaugati si alte date si functii necesare pentru iterator
+	int Current;
+	T** List;
 public:
-	ArrayIterator();
-	ArrayIterator& operator ++ ();
-	ArrayIterator& operator -- ();
-	bool operator= (ArrayIterator<T>&);
-	bool operator!=(ArrayIterator<T>&);
-	T* GetElement();
+	ArrayIterator() : List(nullptr), Current(0) {};
+	ArrayIterator(T** list, int current) : List(list), Current(current) {};
+	
+	ArrayIterator& operator ++ ()
+	{
+		Current++;
+		return (*this);
+	}
+	ArrayIterator& operator -- ()
+	{
+		if (Current == 0)
+			return nullptr;
+		Current--;
+		return (*this);
+	}
+	bool operator== (ArrayIterator<T>& ref)
+	{
+		return (*this) == ref;
+	}
+	bool operator!=(ArrayIterator<T>& ref)
+	{
+		return (*this) != ref;
+	}
+	T* GetElement()
+	{
+		return List[Current];
+	}
+	T* operator*()
+	{
+		return GetElement();
+	}
+	
 };
 template<class T>
 class Array
 {
 private:
-	T** List; // lista cu pointeri la obiecte de tipul T*
-	int Capacity; // dimensiunea listei de pointeri
-	int Size; // cate elemente sunt in lista
+	T** List;
+	int Capacity;
+	int Size;
 	void list_expand(int size)
 	{
 		int newCapacity = 1;
@@ -48,16 +89,16 @@ private:
 	}
 
 public:
-	Array() : List(nullptr), Capacity(0),Size(0) {};
+	Array() : List(nullptr), Capacity(0), Size(0) {};
 	~Array()
 	{
-		for (int i = 0; i < Capacity;i++)
+		for (int i = 0; i < Capacity; i++)
 			delete List[i];
 		delete[] List;
 	}
-	Array(int capacity): Size(0),Capacity(capacity)
+	Array(int capacity) : Size(0), Capacity(capacity)
 	{
-		List = new T*[capacity];
+		List = new T * [capacity];
 		for (int i = 0; i < capacity; i++)
 			List[i] = nullptr;
 
@@ -82,7 +123,7 @@ public:
 		}
 		return *(List[index]);
 	}
-	const Array<T>& operator+=(const T& newElem) 
+	const Array<T>& operator+=(const T& newElem)
 	{
 		if (Size + 1 >= Capacity)
 			list_expand(Size + 1);
@@ -126,7 +167,7 @@ public:
 		}
 		return (*this);
 	}
-	const Array<T>& Delete(int index) 
+	const Array<T>& Delete(int index)
 	{
 		try
 		{
@@ -152,45 +193,123 @@ public:
 				return 0;
 		return 1;
 	}
-	void Sort() 
+	void Sort()
 	{
 		for (int i = 0; i < Size - 2; i++)
 			for (int j = i + 1; j < Size; j++)
 				if ((*List[i]) > (*List[j]))
 					std::swap(List[i], List[j]);
 	}
-	void Sort(int(*compare)(const T&, const T&)) 
+	void Sort(int(*compare)(const T&, const T&))
 	{
 		for (int i = 0; i < Size - 2; i++)
-			for (int j = i + 1; j < Size-1; j++)
-				if (compare(*List[i], *List[j]))
+			for (int j = i + 1; j < Size - 1; j++)
+				if (compare(*List[i], *List[j]) > 0)
 					std::swap(List[i], List[j]);
 	}
-	void Sort(Compare* comparator) 
+	void Sort(Compare* comparator)
 	{
 		for (int i = 0; i < Size - 1; i++)
 			for (int j = i + 1; j < Size; j++)
 				if (comparator->CompareElements(*List[i], *List[j]) > 0)
 					std::swap(List[i], List[j]);
 	}
-	
+
 	// functii de cautare - returneaza pozitia elementului sau -1 daca nu exista
-	int BinarySearch(const T& elem); // cauta un element folosind binary search in Array
-	int BinarySearch(const T& elem, int(*compare)(const T&, const T&));// cauta un element folosind binary search si o functie de comparatie
-	int BinarySearch(const T& elem, Compare* comparator);// cauta un element folosind binary search si un comparator
-	int Find(const T& elem); // cauta un element in Array
-	int Find(const T& elem, int(*compare)(const T&, const T&));// cauta un element folosind o functie de comparatie
-	int Find(const T& elem, Compare* comparator);// cauta un element folosind un comparator
-	int GetSize();
-	int GetCapacity();
-	ArrayIterator<T> GetBeginIterator();
-	ArrayIterator<T> GetEndIterator();
-
-
-	void afis()
+	int BinarySearch(const T& elem)
+	{
+		int i = 0;
+		int j = Size - 1;
+		while (i < j)
+		{
+			int m = (i + j) / 2;
+			if (*List[m] == elem)
+				return m;
+			else
+				if (*List[m] < elem)
+					j = m - 1;
+				else
+					i = m + 1;
+		}
+		return -1;
+	}
+	int BinarySearch(const T& elem, int(*compare)(const T&, const T&))
+	{
+		int i = 0;
+		int j = Size - 1;
+		while (i < j)
+		{
+			int m = (i + j) / 2;
+			if (compare(*List[i], elem) == 0)
+				return m;
+			else
+				if (*List[m] < elem)
+					j = m - 1;
+				else
+					i = m + 1;
+		}
+		return -1;
+	}
+	int BinarySearch(const T& elem, Compare* comparator)
+	{
+		int i = 0;
+		int j = Size - 1;
+		while (i < j)
+		{
+			int m = (i + j) / 2;
+			if (comparator->CompareElements(*List[m], elem) == 0)
+				return m;
+			else
+				if (*List[m] < elem)
+					j = m - 1;
+				else
+					i = m + 1;
+		}
+		return -1;
+	}
+	int Find(const T& elem)
 	{
 		for (int i = 0; i < Size; i++)
-			std::cout << (*List[i])<<" ";
-		std::cout << "\n";
+			if (*List[i] == elem)
+				return i;
+		return -1;
+	}
+	int Find(const T& elem, int(*compare)(const T&, const T&))
+	{
+		for (int i = 0; i < Size; i++)
+			if (compare(*List[i], elem) == 0)
+				return i;
+		return -1;
+	}
+	int Find(const T& elem, Compare* comparator)
+	{
+		for (int i = 0; i < Size; i++)
+			if (comparator->CompareElements(*List[i], elem) == 0)
+				return i;
+		return -1;
+	}
+	int GetSize()
+	{
+		return this->Size;
+	}
+	int GetCapacity()
+	{
+		return this->Capacity;
+	}
+	ArrayIterator<T> begin()
+	{
+		return GetBeginIterator();
+	}
+	ArrayIterator<T> end()
+	{
+		return GetEndIterator();
+	}
+	ArrayIterator<T> GetBeginIterator()
+	{
+		return ArrayIterator<T>(List, 0);
+	}
+	ArrayIterator<T> GetEndIterator()
+	{
+		return ArrayIterator<T>(List, Size);
 	}
 };

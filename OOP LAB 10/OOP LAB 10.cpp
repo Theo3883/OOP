@@ -9,5 +9,8 @@ int main()
     array += 1;
     array += 3;
     array.afis();
+    for (auto it : array)
+        std::cout << it;
+    std::cout << '\n';
 }
 
