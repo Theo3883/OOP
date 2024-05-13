@@ -1,5 +1,30 @@
 ﻿  Array.cpp
   OOP LAB 10.cpp
   Generating Code...
-C:\Users\teosa\Desktop\OOP\OOP LAB 10\Array.h(60,1): warning C4717: 'ArrayIterator<int>::operator!=': recursive on all control paths, function will cause runtime stack overflow
-  OOP LAB 10.vcxproj -> C:\Users\teosa\Desktop\OOP\OOP LAB 10\x64\Debug\OOP LAB 10.exe
+C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\Array.h(49,11): error C2440: 'return': cannot convert from 'nullptr' to 'ArrayIterator<T> &'
+C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\Array.h(49,11): error C2440:         with
+C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\Array.h(49,11): error C2440:         [
+C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\Array.h(49,11): error C2440:             T=int
+C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\Array.h(49,11): error C2440:         ]
+  (compiling source file 'OOP%20LAB%2010.cpp')
+  C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\Array.h(49,11):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\OOP LAB 10.cpp(11,20):
+  	see reference to class template instantiation 'ArrayIterator<T>' being compiled
+          with
+          [
+              T=int
+          ]
+  	C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\Array.h(46,17):
+  	while compiling class template member function 'ArrayIterator<T> &ArrayIterator<T>::operator --(void)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\salut\OneDrive\Desktop\OOP\OOP LAB 10\OOP LAB 10.cpp(14,5):
+  		see the first reference to 'ArrayIterator<T>::operator --' in 'main'
+          with
+          [
+              T=int
+          ]
+  

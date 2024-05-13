@@ -8,9 +8,10 @@ int main()
     array += 2;
     array += 1;
     array += 3;
-    array.afis();
     for (auto it : array)
         std::cout << it;
+    auto it = array.begin();
+    --it;
     std::cout << '\n';
 }
 

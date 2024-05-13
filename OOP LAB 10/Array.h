@@ -46,13 +46,13 @@ public:
 	ArrayIterator& operator -- ()
 	{
 		if (Current == 0)
-			return nullptr;
+			throw exceptie1();
 		Current--;
 		return (*this);
 	}
-	bool operator== (ArrayIterator<T>& ref)
+	bool operator= (ArrayIterator<T>& ref)
 	{
-		return (*this) == ref;
+		return (*this) = ref;
 	}
 	bool operator!=(ArrayIterator<T>& ref)
 	{
