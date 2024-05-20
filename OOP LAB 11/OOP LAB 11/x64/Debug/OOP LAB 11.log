@@ -1,0 +1,17 @@
+﻿  OOP LAB 11.cpp
+C:\Users\teosa\Desktop\OOP LAB 11\OOP LAB 11.cpp(30,13): error C3861: 'heapfy': identifier not found
+  C:\Users\teosa\Desktop\OOP LAB 11\OOP LAB 11.cpp(30,13):
+  'heapfy': function was not declared in the template definition context and can be found only via argument-dependent lookup in the instantiation context
+  C:\Users\teosa\Desktop\OOP LAB 11\OOP LAB 11.cpp(30,13):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\teosa\Desktop\OOP LAB 11\OOP LAB 11.cpp(41,19):
+  	see reference to class template instantiation 'Sorting<int>' being compiled
+  	C:\Users\teosa\Desktop\OOP LAB 11\OOP LAB 11.cpp(27,17):
+  	while compiling class template member function 'void Sorting<int>::heapsort(T *&,int)'
+          with
+          [
+              T=int
+          ]
+  		C:\Users\teosa\Desktop\OOP LAB 11\OOP LAB 11.cpp(41,27):
+  		see the first reference to 'Sorting<int>::heapsort' in 'sort'
+  
