@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\teosa\\Desktop\\OOP LAB 12\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DEDD4D-ED9F-480D-9A5E-229F21F22F9A}|OOP LAB 12.vcxproj|C:\\Users\\teosa\\Desktop\\OOP LAB 12\\Coleg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1DEDD4D-ED9F-480D-9A5E-229F21F22F9A}|OOP LAB 12.vcxproj|solutionrelative:Coleg.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1DEDD4D-ED9F-480D-9A5E-229F21F22F9A}|OOP LAB 12.vcxproj|C:\\Users\\teosa\\Desktop\\OOP LAB 12\\Cunoscut.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B1DEDD4D-ED9F-480D-9A5E-229F21F22F9A}|OOP LAB 12.vcxproj|solutionrelative:Cunoscut.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cunoscut.cpp",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP LAB 12\\Cunoscut.cpp",
+              "RelativeDocumentMoniker": "Cunoscut.cpp",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP LAB 12\\Cunoscut.cpp",
+              "RelativeToolTip": "Cunoscut.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T07:11:50.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Coleg.cpp",
+              "DocumentMoniker": "C:\\Users\\teosa\\Desktop\\OOP LAB 12\\Coleg.cpp",
+              "RelativeDocumentMoniker": "Coleg.cpp",
+              "ToolTip": "C:\\Users\\teosa\\Desktop\\OOP LAB 12\\Coleg.cpp",
+              "RelativeToolTip": "Coleg.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-22T07:11:49.331Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
